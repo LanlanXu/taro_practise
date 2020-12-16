@@ -1,0 +1,28 @@
+.top {
+  height: 48PX;
+  padding: 0 10PX;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.top .left {
+  display: flex;
+  align-items: center;
+}
+.top .left .img {
+  width: 28PX;
+  height: 28PX;
+  cursor: pointer;
+}
+.top .right {
+  width: 140PX;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.top .right .img {
+  width: 28PX;
+  height: 28PX;
+  cursor: pointer;
+}

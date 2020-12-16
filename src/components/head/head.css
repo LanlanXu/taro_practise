@@ -1,0 +1,39 @@
+.head {
+  position: relative;
+}
+.head .back-bg {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  width: 100%;
+  height: 150PX;
+  filter: blur(8PX);
+}
+.head .store {
+  display: flex;
+  flex-direction: row;
+  margin-top: 26PX;
+}
+.head .store .store-bg {
+  width: 80PX;
+  height: 80PX;
+  border-radius: 6PX;
+  margin-left: 10PX;
+}
+.head .store .store-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  line-height: 1;
+  font-size: 16PX;
+  margin-left: 10PX;
+  color: #fff;
+}
+.head .store .store-text .tags-text {
+  border: 1PX solid #fff;
+  border-radius: 4PX;
+  margin-right: 6PX;
+  font-size: 12PX;
+  color: #cfdb26;
+  padding: 0 2PX;
+}
