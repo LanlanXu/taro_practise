@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import { View, Button, Text } from '@tarojs/components'
 import Head from '../../components/head/head';
+import Food from '../../components/food/food';
 import { add, minus, asyncAdd } from '../../actions/counter'
 
 import './index.less'
@@ -42,6 +43,7 @@ class Index extends Component {
     return (
       <View className='index'>
         <Head />
+        <Food />
       </View>
     )
   }
