@@ -1,0 +1,17 @@
+.cata {
+  width: 120PX;
+  height: calc(100vh - 180PX);
+  display: flex;
+  flex-direction: column;
+}
+.cata .cata-name {
+  width: 100%;
+  height: 40PX;
+  display: block;
+  font-size: 18PX;
+  line-height: 40PX;
+  text-align: center;
+}
+.cata .cata-name.active {
+  color: red;
+}
